@@ -1,4 +1,4 @@
-# Caprae Lead Generation & Enrichment Tool
+# Caprae AI-Readiness Pre-Screening: Lead Enrichment Tool
 
 ## Project Overview
 
