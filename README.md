@@ -20,29 +20,27 @@ Beyond core enrichment, this tool includes a dedicated visualization module that
 * **Reproducible Environment:** Uses a `requirements.txt` file to manage and ensure consistent installation of all Python dependencies.
 
 ## Project Structure
-
+'''
 caprae_leadgen_challenge/
-├── .venv/
-├── data/
-│   ├── input_leads.csv
-│   └── output_enriched_leads.csv
-├── images/
+├── .venv/                     # Python Virtual Environment (ignored by Git)
+├── data/                      # Stores input and output CSV files
+│   ├── input_leads.csv        # Example input leads for the tool
+│   └── output_enriched_leads.csv # Generated output with enriched data
+├── images/                    # Stores images used in documentation (e.g., analysis.md)
 │   ├── companies_per_industry.png
 │   ├── linkedin_success_by_industry.png
 │   ├── missing_data_bar.png
 │   ├── missing_data_matrix.png
-│   └── website_summary_wordcloud.jpg
-├── src/
-│   ├── __init__.py
-│   ├── enricher.py
-│   └── main.py
-├── README.md
-├── analysis.md
-├── requirements.txt
-├── caprae_research.txt
-└── visualize_output.py
-
-
+│   └── website_summary_wordcloud.png
+├── src/                       # Source code for the core enrichment logic
+│   ├── init.py            # Makes 'src' a Python package
+│   ├── enricher.py            # Contains web scraping and enrichment functions
+│   └── main.py                # Main script to run the enrichment process
+├── .gitignore                 # Specifies intentionally untracked files to ignore
+├── README.md                  # This README file
+├── requirements.txt           # Lists all Python package dependencies
+└── visualize_output.py        # Script for generating data visualizations
+...
 ## Getting Started
 
 Follow these steps to set up and run the project on your local machine.
