@@ -1,10 +1,10 @@
 # Caprae AI-Readiness Pre-Screening: Lead Enrichment Tool
 
-# 🚀 Project Overview
+# Project Overview
 
 This project delivers an automated solution to transform raw sales leads into actionable intelligence. By scraping company websites, it extracts official LinkedIn company URLs and generates concise website summaries, directly enhancing lead qualification and sales outreach efficiency. It includes powerful visualization tools to assess data quality and uncover valuable business insights from your enriched leads.
 
-# ✨ Key Features
+# Key Features
 
 * **Automated Lead Enrichment:** Efficiently discovers LinkedIn company page URLs from provided website links.
 * **Concise Website Summaries:** Generates short (up to 250 characters) business summaries from website content (titles, meta descriptions, H1s).
