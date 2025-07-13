@@ -22,9 +22,9 @@ Beyond core enrichment, this tool includes a dedicated visualization module that
 ## Project Structure
 
 caprae_leadgen_challenge/
-├── .venv/                         # Python Virtual Environment
-├── src/                           # Source code for the core enrichment logic
-│   ├── init.py                # Makes 'src' a Python package
+├── .venv/                          # Python Virtual Environment
+├── src/                            # Source code for the core enrichment logic
+│   ├── init.py                     # Makes 'src' a Python package
 │   ├── main.py                    # Main script to run the enrichment process
 │   └── enricher.py                # Contains web scraping and enrichment functions
 ├── data/                          # Stores input and output CSV files
@@ -33,7 +33,7 @@ caprae_leadgen_challenge/
 ├── visualize_output.py            # Script for data visualization
 ├── requirements.txt               # Lists all Python package dependencies
 ├── README.md                      # This README file
-└── .gitignore                     # (Optional) Specifies intentionally untracked files to ignore by Git
+
 
 
 ## Getting Started
