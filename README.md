@@ -22,18 +22,25 @@ Beyond core enrichment, this tool includes a dedicated visualization module that
 ## Project Structure
 
 caprae_leadgen_challenge/
-├── .venv/                          # Python Virtual Environment
-├── src/                            # Source code for the core enrichment logic
-│   ├── init.py                     # Makes 'src' a Python package
-│   ├── main.py                    # Main script to run the enrichment process
-│   └── enricher.py                # Contains web scraping and enrichment functions
-├── data/                          # Stores input and output CSV files
-│   ├── input_leads.csv            # Example input leads file
-│   └── output_enriched_leads.csv  # Generated output with enriched data
-├── visualize_output.py            # Script for data visualization
-├── requirements.txt               # Lists all Python package dependencies
-├── README.md                      # This README file
-
+├── .venv/
+├── data/
+│   ├── input_leads.csv
+│   └── output_enriched_leads.csv
+├── images/
+│   ├── companies_per_industry.png
+│   ├── linkedin_success_by_industry.png
+│   ├── missing_data_bar.png
+│   ├── missing_data_matrix.png
+│   └── website_summary_wordcloud.jpg
+├── src/
+│   ├── __init__.py
+│   ├── enricher.py
+│   └── main.py
+├── README.md
+├── analysis.md
+├── requirements.txt
+├── caprae_research.txt
+└── visualize_output.py
 
 
 ## Getting Started
