@@ -1,6 +1,18 @@
 # Caprae AI-Readiness Pre-Screening: Lead Enrichment
 
-This project provides a Python-based tool to enrich a CSV file containing company leads with LinkedIn URLs and website summaries, and generate insightful visualizations to analyze the enriched data. Last updated: 04:06 PM IST, Sunday, July 13, 2025.
+# Caprae AI-Readiness Pre-Screening: Lead Enrichment Tool
+
+# 🚀 Project Overview
+
+This project delivers an automated solution to transform raw sales leads into actionable intelligence. By scraping company websites, it extracts official LinkedIn company URLs and generates concise website summaries, directly enhancing lead qualification and sales outreach efficiency. It includes powerful visualization tools to assess data quality and uncover valuable business insights from your enriched leads.
+
+# ✨ Key Features
+
+* **Automated Lead Enrichment:** Efficiently discovers LinkedIn company page URLs from provided website links.
+* **Concise Website Summaries:** Generates short (up to 250 characters) business summaries from website content (titles, meta descriptions, H1s).
+* **CSV-Driven Workflow:** Seamlessly processes `.csv` input files and outputs enriched data to a new `.csv`.
+* **Robust Web Scraping:** Built with `requests` and `BeautifulSoup` for reliable web content extraction, including error handling.
+* **Comprehensive Data Visualization:** Creates insightful charts (e.g., LinkedIn discovery rates, industry distribution, missing data analysis, word clouds) saved as `.png` files.
 
 ## Prerequisites
 
@@ -43,7 +55,7 @@ python visualize_output.py
 This script will:
 - Print enhanced tabular views of the enriched data to the console.
 - Generate and save the following plots as `.png` files in the `images/` directory:
-  - `images/linkedin_success_by_industry.png`: Bar chart showing LinkedIn discovery rates.
+  - ![Number of Companies per Industry in Leads](images/companies_per_industry.png): Bar chart showing LinkedIn discovery rates.
   - `images/companies_per_industry.png`: Bar chart of company counts per industry.
   - `images/website_summary_wordcloud.png`: Word cloud of common keywords in website summaries.
   - `images/missing_data_matrix.png`: Visualization of data completeness.
